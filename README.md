@@ -12,6 +12,6 @@ To execute your custom code you have to use it in the next way:
   6. The line to change is:
      
       
-      python_script = "print('hello world')|print('banana')|print('apple')|if(1==1):|    print('yes')"
-      --
+      ##### python_script = "print('hello world')|print('banana')|print('apple')|if(1==1):|    print('yes')"
+      
      `python_script` is a variable that stores the code, so it shouldn't be changed, but the content of the string can be changed for your needs.
