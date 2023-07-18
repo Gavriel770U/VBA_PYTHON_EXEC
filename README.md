@@ -8,7 +8,7 @@ To execute your custom code you have to use it in the next way:
   1. The code have to work in python.
   2. The first line of the code is just like regular python.
   3. After the first line, every line have to be separated by `|` character.
-  4. If the line starts with TABs or SPACEs you have to add them after the `|` character.
+  4. If the line starts with `TAB`s or `SPACE`s you have to add them after the `|` character.
   5. All the code have to be in one line.
   6. The line to change is:
       
