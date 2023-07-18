@@ -1,8 +1,9 @@
 # VBA_PYTHON_EXEC
 VBA code that runs on .xlsm or .docm files, installs python, and executes given python code.
 ______________________________________________________________________________________________
+
 ## How To Use?
-Well basically the code can be used in .xlsm or .docm files as macros for workbooks, sheets, modules and etc.
+Well, basically the code can be used in .xlsm or .docm files as macros for workbooks, sheets, modules and etc.
 To execute your custom code you have to use it in the next way:
   1. The code have to work in python.
   2. The first line of the code is just like regular python.
@@ -15,3 +16,8 @@ To execute your custom code you have to use it in the next way:
       ##### python_script = "print('hello world')|print('banana')|print('apple')|if(1==1):|    print('yes')"
       
      `python_script` is a variable that stores the code, so it shouldn't be changed, but the content of the string can be changed for your needs.
+______________________________________________________________________________________________
+
+### How To Convert Python Script To The Formatted String?
+The concept is very simple - just use python triple quotes character to place in it the code and replace all the new line characters (`\n`) with `'|'`.
+I have already prepared a python script that does this for you, but you can create your own script to format it with better user interface. 
