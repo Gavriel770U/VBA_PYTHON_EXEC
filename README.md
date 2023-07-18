@@ -19,5 +19,5 @@ To execute your custom code you have to use it in the next way:
 ______________________________________________________________________________________________
 
 ### How To Convert Python Script To The Formatted String?
-The concept is very simple - just use python triple quotes character to place in it the code and replace all the new line characters (`\n`) with `'|'`.
+The concept is very simple - just use python triple quotes character to place in it the code and replace all the new line characters (`\n`) with `|`.
 I have already prepared a python script that does this for you, but you can create your own script to format it with better user interface. 
